@@ -1,0 +1,51 @@
+{
+  "name": "parquick",
+  "displayName": "Parquick",
+  "expo": {
+    "name": "parquick",
+    "slug": "parquick",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx",
+        "svg"
+      ]
+    },
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0055ff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "dev.christiangil.parquick",
+      "buildNumber": "0.0.1",
+      "supportsTablet": true
+    }
+  },
+  "android": {
+    "package": "dev.christiangil.parquick",
+    "versionCode": 1,
+    "permissions": [
+      "ACCESS_FINE_LOCATION"
+    ]
+  }
+}
